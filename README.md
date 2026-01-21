@@ -3,3 +3,6 @@ https://github.com/Kruthikagowda12/assignments/blob/main/ER_diagrams(kruthika).p
 https://github.com/Kruthikagowda12/assignments/blob/main/SQL%20Assignment%203%20(Kruthika).pdf
 https://github.com/Kruthikagowda12/assignments/blob/main/assgnment1(kruthika).pdf
 https://github.com/Kruthikagowda12/assignments/blob/main/assgnment2(kruthika).pdf
+
+this is the python opps assignment problems
+https://github.com/Kruthikagowda12/assignments/tree/main/python%20assignmets
