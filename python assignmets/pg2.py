@@ -1,22 +1,22 @@
 # 2. Write a Python program to count the number of characters (character frequency) in a string. 
 
-# s = input("Enter a string: ")
+s = input("Enter a string: ")
+count={}
+for i in s:
+    if i in count:
+        count[i]+=1
+    else:
+        count[i]=1
+print(count)
+
 # def func(s):
-#     freq = {}
+#     char_string = {}
 #     for char in s:
-#         freq[char] = freq.get(char, 0) + 1
-#     return freq
+#         char_string[char] = char_string.get(char, 0) + 1
+#     return char_string
 # print(func(s))
 
-def func(s):
-  count = 0
-  for char in s:
-    count += 1
-  return count
 
-my_string = "hello"
-length = func(my_string)
-print(f"The length of the string is: {length}")
 
 
 
