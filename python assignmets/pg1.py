@@ -6,3 +6,6 @@ def  func(s):
         count+=1
     return count
 print(func(s))
+
+
+# print(len(s))
