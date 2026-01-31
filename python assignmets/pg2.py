@@ -8,12 +8,7 @@ for i in s:
         count[i]=1
 print(count)
 
-# def func(s):
-#     char_string = {}
-#     for char in s:
-#         char_string[char] = char_string.get(char, 0) + 1
-#     return char_string
-# print(func(s))
+
 
 
 
