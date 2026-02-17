@@ -1,4 +1,4 @@
-s="hii this is kruthika"
+s="hiithis is kruthika"
 prefixe="hii"
 if s.startswith(prefixe):
     print("yes")

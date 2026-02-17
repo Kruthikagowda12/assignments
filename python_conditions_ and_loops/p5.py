@@ -10,7 +10,7 @@ if count>0:
     average=total/count
     print("Sum:", total)
     print("Average:", average)
-# there
+
 else:
     print("No numbers were entered.")
 
