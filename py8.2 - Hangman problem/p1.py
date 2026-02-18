@@ -34,7 +34,6 @@ def play_game(words):
             continue
 
         guessed_letters.add(guess)
-
        
         if guess in word:
             print("Correct!")
