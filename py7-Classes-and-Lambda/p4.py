@@ -4,12 +4,15 @@
 # Input: numbers= [90, 20,10,40,50,60,70], target=50 Output: 3, 4  
 class PairFinder:
     def find_pair(self, numbers, target):
-        num_to_index = {}
-        for index, num in enumerate(numbers):
-            complement = target - num
-            if complement in num_to_index:
-                return num_to_index[complement], index
-            num_to_index[num] = index
+        for i in range(len(numbers)):
+            for j in range(i + 1, len(numbers)):
+                if numbers[i] + numbers[j] == target:
+                    return i, j
         return None
+
+
 finder = PairFinder()
-print(finder.find_pair([90, 20, 10, 40, 50, 60, 70], 50))  
+numbers = [90, 20, 10, 40, 50, 60, 70]
+target = 50
+
+print(finder.find_pair(numbers, target))
